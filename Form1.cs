@@ -21,7 +21,7 @@ namespace DragDropAddin
 
             var masterToDrag = myStencil.Masters[item.Text];
             var data = new DataObject(masterToDrag);
-            DoDragDrop(data, DragDropEffects.Copy); 
+            DoDragDrop(data, DragDropEffects.Copy);
         }
     }
 }
